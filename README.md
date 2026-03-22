@@ -14,10 +14,6 @@ Microempreendedores individuais (MEI) que precisam acompanhar entradas e saídas
 
 Usuários que querem organizar renda ativa e renda passiva.
 
-Veja as personas aqui:
-
-./PERSONAS.md
-
 4. Principais Dores
 
 Falta de controle sobre gastos e receitas.
