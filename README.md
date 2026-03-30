@@ -36,4 +36,4 @@ O app coleta informações de movimentações financeiras através de **notifica
 | Allan Batista Dos Santos      | 0030482511042 |
 | Bruno Rocha Wendland          | 0030482511028 |
 | Leonardo Akira Ikeda Son      | 0030482511030 |
-| Murillo Alves Lourenço       
+| Murillo Alves Lourenço        | 0030482511006 |
