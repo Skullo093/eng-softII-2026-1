@@ -14,7 +14,7 @@ Microempreendedores individuais (MEI) que precisam acompanhar entradas e saídas
 
 Usuários que querem organizar renda ativa e renda passiva.
 
-veja as personas aqui: https://github.com/Skullo093/eng-softII-2026-1/blob/main/docs/personas.md
+veja as personas aqui: [personas](https://github.com/Skullo093/eng-softII-2026-1/blob/main/docs/personas.md)
 
 
 4. Principais Dores
