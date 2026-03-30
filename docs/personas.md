@@ -191,12 +191,3 @@ Uma solução eficaz deve equilibrar:
 
 ---
 
-## 📝 Versionamento
-
-| Data | Versão | Descrição | Autor |
-|------|--------|-----------|-------|
-| 2026-03-30 | 1.0 | Criação do documento com as três personas | Equipe de Produto |
-
----
-
-*Este documento é parte da estratégia de design centrado no usuário e deve ser revisitado periodicamente para validação e atualizações.*
