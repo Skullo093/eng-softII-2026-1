@@ -1,39 +1,39 @@
-1. Nome do projeto
+# 💰 Gestão Financeira Inteligente
 
-Gestão Financeira Inteligente
+## 📖 Resumo
+Aplicativo de **gestão financeira** desenvolvido para ajudar **usuários da classe C** e **microempreendedores (MEI)** a organizar suas finanças.  
+O app coleta informações de movimentações financeiras através de **notificações do celular** (como notificações de bancos) e também permite **registro manual** de contas e gastos.  
 
-2. Resumo
+👉 O sistema armazena os dados e apresenta ao usuário um **resumo claro** do que foi gasto, recebido e das contas a pagar, ajudando no controle financeiro.
 
-Aplicativo de gestão financeira desenvolvido para ajudar usuários da classe C e microempreendedores (MEI) a organizar suas finanças. O app coleta informações de movimentações financeiras através de notificações do celular (como notificações de bancos) e também permite registro manual de contas e gastos. O sistema armazena os dados e apresenta ao usuário um resumo claro do que foi gasto, recebido e das contas a pagar, ajudando no controle financeiro.
+---
 
-3. Atores / Personas
+## 👥 Atores / Personas
+- Pessoas da **classe C** que desejam controlar melhor seus gastos mensais.  
+- **Microempreendedores individuais (MEI)** que precisam acompanhar entradas e saídas de dinheiro.  
+- Usuários que querem organizar **renda ativa** e **renda passiva**.  
 
-Pessoas da classe C que desejam controlar melhor seus gastos mensais.
+---
 
-Microempreendedores individuais (MEI) que precisam acompanhar entradas e saídas de dinheiro.
+## 😣 Principais Dores
+- ❌ Falta de controle sobre gastos e receitas.  
+- ❌ Esquecimento de contas a pagar.  
+- ❌ Dificuldade de visualizar quanto dinheiro entra e quanto sai.  
+- ❌ Falta de organização financeira em um único lugar.  
 
-Usuários que querem organizar renda ativa e renda passiva.
+---
 
-veja as personas aqui: [personas](https://github.com/Skullo093/eng-softII-2026-1/blob/main/docs/personas.md)
+## 🛠️ Tecnologias
+- **Plataforma:** Android e iOS  
+- **Linguagens:** *(adicionar aqui se já definido, ex: Kotlin, Swift, Flutter)*  
+- **Banco de Dados:** *(adicionar aqui se já definido, ex: Firebase, SQLite)*  
 
+---
 
-4. Principais Dores
-
-Falta de controle sobre gastos e receitas.
-
-Esquecimento de contas a pagar.
-
-Dificuldade de visualizar quanto dinheiro entra e quanto sai.
-
-Falta de organização financeira em um único lugar.
-
-5. Tecnologias
-
-Plataforma: Android e iOS
-
-6. Membros
-
-Nome: Allan Batista Dos Santos RA: 0030482511042
-Nome: Bruno Rocha Wendland RA: 0030482511028
-Nome: Leonardo Akira Ikeda Son RA: 0030482511030
-Nome: Murillo Alves Lourenço RA: 0030482511006
+## 👨‍💻 Membros da Equipe
+| Nome                          | RA             |
+|-------------------------------|----------------|
+| Allan Batista Dos Santos      | 0030482511042 |
+| Bruno Rocha Wendland          | 0030482511028 |
+| Leonardo Akira Ikeda Son      | 0030482511030 |
+| Murillo Alves Lourenço       
