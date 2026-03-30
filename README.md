@@ -11,7 +11,8 @@ O app coleta informações de movimentações financeiras através de **notifica
 ## 👥 Atores / Personas
 - Pessoas da **classe C** que desejam controlar melhor seus gastos mensais.  
 - **Microempreendedores individuais (MEI)** que precisam acompanhar entradas e saídas de dinheiro.  
-- Usuários que querem organizar **renda ativa** e **renda passiva**.  
+- Usuários que querem organizar **renda ativa** e **renda passiva**.
+veja as personas aqui: [Personas](http://github.com/Skullo093/eng-softII-2026-1/blob/main/docs/personas.md)
 
 ---
 
