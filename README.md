@@ -25,8 +25,8 @@ O app coleta informações de movimentações financeiras através de **notifica
 
 ## 🛠️ Tecnologias
 - **Plataforma:** Android e iOS  
-- **Linguagens:** *(adicionar aqui se já definido, ex: Kotlin, Swift, Flutter)*  
-- **Banco de Dados:** *(adicionar aqui se já definido, ex: Firebase, SQLite)*  
+- **Linguagens:**   
+- **Banco de Dados:**   
 
 ---
 
