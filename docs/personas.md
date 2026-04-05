@@ -13,6 +13,7 @@ Este documento apresenta as personas que representam os principais perfis de usu
 ---
 
 ## 👩‍💼 PERSONA 1: MARIA
+![young-smiling-woman-looking-at-camera-with-crossed-arms-isolated-illustration-ai-generative-free-png](https://github.com/user-attachments/assets/ae8ab4eb-bb27-418b-bcc6-55f62480403f)
 
 > *“Quero organizar minhas finanças para finalmente conseguir investir e realizar meus sonhos.”*
 
@@ -60,6 +61,7 @@ Facilidade de acesso a ferramentas digitais, mas com dificuldade de escolha dian
 ---
 
 ## 👨‍💼 PERSONA 2: CARLOS
+![smiling-man-with-crossed-arms-in-a-light-blue-shirt-free-png](https://github.com/user-attachments/assets/8f826ce3-ba57-4738-b078-2df44a0c46a9)
 
 > *“Preciso de controle financeiro no meu negócio, mas tudo ainda é muito bagunçado e no papel.”*
 
@@ -108,6 +110,7 @@ Microempreendedores individuais (MEIs) e pequenos empresários — um público n
 ---
 
 ## 👩‍👧‍👦 PERSONA 3: ANA
+![confident-young-woman-with-long-hair-smiling-in-a-studio-setting-free-png](https://github.com/user-attachments/assets/6e5f0285-880a-40ad-a22b-4ce7d3afb425)
 
 > *“Vivo no susto com as contas. Quero tranquilidade e controle para cuidar melhor da minha família.”*
 
