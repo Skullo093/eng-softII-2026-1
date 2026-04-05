@@ -4,15 +4,6 @@
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-## 🔗 Acesso rápido
-
-<p align="center">
-  <a href="#-sobre"><img src="https://img.shields.io/badge/Sobre-222?style=for-the-badge"></a>
-  <a href="#-funcionalidades"><img src="https://img.shields.io/badge/Funcionalidades-222?style=for-the-badge"></a>
-  <a href="#-personas"><img src="https://img.shields.io/badge/Personas-222?style=for-the-badge"></a>
-  <a href="#-tecnologias"><img src="https://img.shields.io/badge/Tecnologias-222?style=for-the-badge"></a>
-</p>
-
 ---
 ## 📖 Resumo
 Aplicativo de **gestão financeira** desenvolvido para ajudar **usuários da classe C** e **microempreendedores (MEI)** a organizar suas finanças.  
