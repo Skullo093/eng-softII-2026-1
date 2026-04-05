@@ -8,12 +8,14 @@
 
 ## 🔗 Acesso rápido
 
+## 🔗 Acesso rápido
+
 <p align="center">
-  <a href="[#-Resumo](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#-resumo)"><img src="https://img.shields.io/badge/Resumo-222?style=for-the-badge"></a>
-  <a href="[#-Atores/Personas](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#-atores--personas)"><img src="https://img.shields.io/badge/Atores/Personas-222?style=for-the-badge"></a>
-  <a href="[#-Principais dores](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#-principais-dores)"><img src="https://img.shields.io/badge/Principais dores-222?style=for-the-badge"></a>
-  <a href="[#-Tecnologias](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#%EF%B8%8F-tecnologias)"><img src="https://img.shields.io/badge/Tecnologias-222?style=for-the-badge"></a>
-  <a href="[#-Membros da equipe](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#%E2%80%8D-membros-da-equipe)"><img src="https://img.shields.io/badge/Membros da equipe-222?style=for-the-badge"></a>
+  <a href="#-resumo"><img src="https://img.shields.io/badge/Resumo-222?style=for-the-badge"></a>
+  <a href="#-atores--personas"><img src="https://img.shields.io/badge/Atores/Personas-222?style=for-the-badge"></a>
+  <a href="#-principais-dores"><img src="https://img.shields.io/badge/Principais dores-222?style=for-the-badge"></a>
+  <a href="#-tecnologias"><img src="https://img.shields.io/badge/Tecnologias-222?style=for-the-badge"></a>
+  <a href="#-membros-da-equipe"><img src="https://img.shields.io/badge/Membros da equipe-222?style=for-the-badge"></a>
 </p>
 
 ---
