@@ -4,13 +4,6 @@ Este documento apresenta as personas que representam os principais perfis de usu
 
 ---
 
-## 📋 Índice
-- [Maria - Profissional em Busca de Controle](#-persona-1-maria)
-- [Carlos - Empreendedor Desorganizado](#-persona-2-carlos)
-- [Ana - Mãe em Busca de Segurança](#-persona-3-ana)
-- [Considerações Finais](#-considerações-finais)
-
----
 
 ## 👩‍💼 PERSONA 1: MARIA
 ![young-smiling-woman-looking-at-camera-with-crossed-arms-isolated-illustration-ai-generative-free-png](https://github.com/user-attachments/assets/ae8ab4eb-bb27-418b-bcc6-55f62480403f)
