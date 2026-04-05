@@ -5,6 +5,19 @@
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
 ---
+
+## 🔗 Acesso rápido
+
+<p align="center">
+  <a href="[#-Resumo](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#-resumo)"><img src="https://img.shields.io/badge/Resumo-222?style=for-the-badge"></a>
+  <a href="[#-Atores/Personas](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#-atores--personas)"><img src="https://img.shields.io/badge/Atores/Personas-222?style=for-the-badge"></a>
+  <a href="[#-Principais dores](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#-principais-dores)"><img src="https://img.shields.io/badge/Principais dores-222?style=for-the-badge"></a>
+  <a href="[#-Tecnologias](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#%EF%B8%8F-tecnologias)"><img src="https://img.shields.io/badge/Tecnologias-222?style=for-the-badge"></a>
+  <a href="[#-Membros da equipe](https://github.com/Skullo093/eng-softII-2026-1/blob/main/README.md#%E2%80%8D-membros-da-equipe)"><img src="https://img.shields.io/badge/Membros da equipe-222?style=for-the-badge"></a>
+</p>
+
+---
+
 ## 📖 Resumo
 Aplicativo de **gestão financeira** desenvolvido para ajudar **usuários da classe C** e **microempreendedores (MEI)** a organizar suas finanças.  
 O app coleta informações de movimentações financeiras através de **notificações do celular** (como notificações de bancos) e também permite **registro manual** de contas e gastos.  
