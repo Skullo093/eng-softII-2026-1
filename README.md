@@ -12,7 +12,11 @@ O app coleta informações de movimentações financeiras através de **notifica
 - Pessoas da **classe C** que desejam controlar melhor seus gastos mensais.  
 - **Microempreendedores individuais (MEI)** que precisam acompanhar entradas e saídas de dinheiro.  
 - Usuários que querem organizar **renda ativa** e **renda passiva**.
-veja as personas aqui: [Personas](http://github.com/Skullo093/eng-softII-2026-1/blob/main/docs/personas.md)
+veja as personas aqui: <p align="center">
+  <a href="./docs/personas.md">
+    <img src="https://img.shields.io/badge/👤%20Personas-0088cc?style=for-the-badge">
+  </a>
+</p>
 
 ---
 
