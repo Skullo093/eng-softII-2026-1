@@ -8,8 +8,6 @@
 
 ## 🔗 Acesso rápido
 
-## 🔗 Acesso rápido
-
 <p align="center">
   <a href="#-resumo"><img src="https://img.shields.io/badge/Resumo-222?style=for-the-badge"></a>
   <a href="#-atores--personas"><img src="https://img.shields.io/badge/Atores/Personas-222?style=for-the-badge"></a>
