@@ -87,7 +87,7 @@ veja a seguir os requisitos: <p align="center">
   </a>
 </p>
 
-link do Google Stitch: https://stitch.withgoogle.com/projects/1611214365353690810?pli=1
+link do Google Stitch: https://stitch.withgoogle.com/projects/1611214365353690810
 
 imagens do prototipo:
 
