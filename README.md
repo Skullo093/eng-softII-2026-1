@@ -12,7 +12,7 @@
   <a href="#-resumo"><img src="https://img.shields.io/badge/Resumo-222?style=for-the-badge"></a>
   <a href="#-atores--personas"><img src="https://img.shields.io/badge/Atores/Personas-222?style=for-the-badge"></a>
   <a href="#-principais-dores"><img src="https://img.shields.io/badge/Principais dores-222?style=for-the-badge"></a>
-  <a href="#tecnologias">
+  <a href="#-Tecnologias">
   <img src="https://img.shields.io/badge/Tecnologias-222?style=for-the-badge">
 </a>
 
