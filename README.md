@@ -1,4 +1,4 @@
-# Eng Soft II - 💰 FechaConta
+#  💰 FechaConta
 
 > Sistema para gerenciamento de renda com foco em usabilidade e segurança.
 
