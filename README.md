@@ -78,7 +78,7 @@ O **FechaConta** oferece um plano gratuito e opções premium com funcionalidade
 
 ---
 
-## 📱 Prototipação <a name="protipacao"></a>
+## 📱 Prototipação <a name="prototipacao"></a>
 
 Esta seção apresenta a relação entre as telas do aplicativo **FechaConta** e os requisitos funcionais e não funcionais definidos no projeto.
 veja a seguir os requisitos: <p align="center">
