@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/badge/Planos-222?style=for-the-badge">
 </a>
   <a href="#prototipacao">
-  <img src="https://img.shields.io/badge/prototipação-222?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Prototipação-222?style=for-the-badge">
 </a>
 <a href="#membros">
   <img src="https://img.shields.io/badge/Membros da equipe-222?style=for-the-badge">
