@@ -12,11 +12,9 @@
   <a href="#-resumo"><img src="https://img.shields.io/badge/Resumo-222?style=for-the-badge"></a>
   <a href="#-atores--personas"><img src="https://img.shields.io/badge/Atores/Personas-222?style=for-the-badge"></a>
   <a href="#-principais-dores"><img src="https://img.shields.io/badge/Principais dores-222?style=for-the-badge"></a>
-  <a name="tecnologias"></a>
   <a href="#tecnologias">
   <img src="https://img.shields.io/badge/Tecnologias-222?style=for-the-badge">
 </a>
-<a name="membros"></a>
 <a href="#membros">
   <img src="https://img.shields.io/badge/Membros da equipe-222?style=for-the-badge">
 </a>
@@ -52,14 +50,14 @@ veja as personas aqui: <p align="center">
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias <a name="tecnologias"></a>
 - **Plataforma:** Android e iOS  
 - **Linguagens:**   
 - **Banco de Dados:**   
 
 ---
 
-## 👨‍💻 Membros da Equipe
+## 👨‍💻 Membros da Equipe <a name="membros"></a>
 | Nome                          | RA             |
 |-------------------------------|----------------|
 | Allan Batista Dos Santos      | 0030482511042 |
