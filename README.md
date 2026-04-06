@@ -1,4 +1,4 @@
-# Eng Soft II - 💰 Gestão Financeira Inteligente
+# Eng Soft II - 💰 FechaConta
 
 > Sistema para gerenciamento de renda com foco em usabilidade e segurança.
 
