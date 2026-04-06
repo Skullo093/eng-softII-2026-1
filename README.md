@@ -52,8 +52,8 @@ veja as personas aqui: <p align="center">
 
 ## 🛠️ Tecnologias <a name="tecnologias"></a>
 - **Plataforma:** Android e iOS  
-- **Linguagens:**   
-- **Banco de Dados:**   
+- **Linguagens:** JavaScript, React Native  
+- **Banco de Dados:** Firebase 
 
 ---
 
