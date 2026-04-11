@@ -20,6 +20,7 @@ Este documento apresenta as personas que representam os principais perfis de usu
 | **Profissão** | Gerente de Marketing |
 | **Localização** | Capital |
 | **Renda** | Fixa mensal |
+| **Renda** | R$ 5.500,00/mês |
 
 ### 💔 Pontos de Dor
 - ❌ Dificuldade para controlar os gastos do dia a dia
@@ -68,6 +69,7 @@ Facilidade de acesso a ferramentas digitais, mas com dificuldade de escolha dian
 | **Localização** | Cidade de médio porte |
 | **Escolaridade** | Ensino Fundamental completo |
 | **Negócio** | Microempresa |
+| **Renda** | R$ 4.800,00/mês a R$ 7.200,00/mês|
 
 ### 💔 Pontos de Dor
 - ❌ Falta de controle sobre entradas e saídas de dinheiro
@@ -108,7 +110,7 @@ Microempreendedores individuais (MEIs) e pequenos empresários — um público n
 > *“Vivo no susto com as contas. Quero tranquilidade e controle para cuidar melhor da minha família.”*
 
 ### 📌 Descrição Geral
-**Ana** tem 35 anos, é casada e mãe de dois filhos. Vive em uma cidade de médio porte, trabalha como **auxiliar administrativa** e ganha cerca de **R$ 2.500 por mês**. Pertence à classe C e, embora tenha uma noção geral dos gastos, sente dificuldade para organizar as finanças, pagar contas em dia e criar uma reserva de emergência.
+**Ana** tem 35 anos, é casada e mãe de dois filhos. Vive em uma cidade de médio porte, trabalha como **auxiliar administrativa**. Pertence à classe C e, embora tenha uma noção geral dos gastos, sente dificuldade para organizar as finanças, pagar contas em dia e criar uma reserva de emergência.
 
 | Categoria | Detalhes |
 |-----------|---------|
