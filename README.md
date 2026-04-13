@@ -78,6 +78,66 @@ O **FechaConta** oferece um plano gratuito e opções premium com funcionalidade
 
 ---
 
+### 📈 Projeção de Receita
+
+Considerando um cenário realista de conversão:
+- 90% usuários gratuitos  
+- 7% plano básico  
+- 3% plano premium  
+
+A **receita média estimada por usuário** é de aproximadamente **R$ 1,29/mês**.
+
+---
+
+### ⚙️ Custos Operacionais
+
+Os custos mensais estimados do sistema são de aproximadamente:
+
+- Hospedagem  
+- Banco de dados  
+- Domínio  
+- Sistema de notificações  
+- Manutenção básica  
+
+**Total estimado: R$ 900/mês**
+
+---
+
+### 📊 Ponto de Equilíbrio
+
+Com base na receita média por usuário:
+
+👉 O sistema precisa de aproximadamente **700 usuários ativos** para se manter.
+
+---
+
+### 📌 Cenário de Crescimento
+
+- 300 usuários → receita baixa  
+- 500 usuários → começa a se sustentar  
+- 1000 usuários → sustentável  
+- 2000 usuários → operação saudável  
+
+Estimativa mais realista:
+
+👉 **800 a 1500 usuários ativos**
+
+---
+
+### 🔄 Estratégias de Retenção
+
+Para garantir a permanência dos usuários e aumentar a conversão:
+
+- Notificações de vencimento de contas  
+- Relatórios financeiros mensais automáticos  
+- Metas financeiras com acompanhamento visual  
+- Alertas de gastos excessivos  
+- Backup automático na nuvem  
+- Interface simples (foco em MEI e classe C)  
+- Versão gratuita funcional  
+- Gamificação (conquistas)
+---
+
 ## 📱 Prototipação <a name="prototipacao"></a>
 
 Esta seção apresenta a relação entre as telas do aplicativo **FechaConta** e os requisitos funcionais e não funcionais definidos no projeto.
