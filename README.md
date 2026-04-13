@@ -15,8 +15,8 @@
   <a href="#tecnologias">
   <img src="https://img.shields.io/badge/Tecnologias-222?style=for-the-badge">
 </a>
-  <a href="#planos">
-  <img src="https://img.shields.io/badge/Planos-222?style=for-the-badge">
+  <a href="#planos e modelo de negócio">
+  <img src="https://img.shields.io/badge/Planos e Modelo de Negócios-222?style=for-the-badge">
 </a>
   <a href="#prototipacao">
   <img src="https://img.shields.io/badge/Prototipação-222?style=for-the-badge">
@@ -63,7 +63,7 @@ veja as personas aqui: <p align="center">
 
 ---
 
-## 💰 Planos <a name="planos"></a>
+## 💰 Planos e Modelo de Negócio<a name="planos e modelo de negócio"></a>
 
 O **FechaConta** oferece um plano gratuito e opções premium com funcionalidades avançadas para melhor controle financeiro.
 
