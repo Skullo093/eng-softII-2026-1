@@ -1,0 +1,84 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+' ======================
+' CLASSES
+' ======================
+
+class Usuario {
+  - id: int
+  - nome: String
+  - email: String
+  - senha: String
+  + login(email: String, senha: String): boolean
+}
+
+class Conta {
+  - id: int
+  - nome: String
+  - saldo: double
+  - tipo: String
+  + adicionarSaldo(valor: double): void
+  + consultarSaldo(): double
+}
+
+class Transacao {
+  - id: int
+  - valor: double
+  - data: Date
+  - tipo: String
+  - descricao: String
+  + registrar(): void
+}
+
+class Categoria {
+  - id: int
+  - nome: String
+  - tipo: String
+  + criar(): void
+}
+
+class Dashboard {
+  - id: int
+  - resumoSaldo: double
+  + exibirResumo(): void
+}
+
+class Relatorio {
+  - id: int
+  - periodo: String
+  + gerar(): void
+}
+
+class UsuarioPessoaFisica {
+  - cpf: String
+}
+
+class UsuarioPessoaJuridica {
+  - cnpj: String
+}
+
+' ======================
+' HERANÇA
+' ======================
+
+Usuario <|-- UsuarioPessoaFisica
+Usuario <|-- UsuarioPessoaJuridica
+
+' ======================
+' RELACIONAMENTOS (COM CARDINALIDADE)
+' ======================
+
+Usuario "1" -- "1..*" Conta
+
+Conta "1" -- "0.." Transacao
+
+Transacao "1" -- "1" Categoria
+
+Usuario "1" -- "1" Dashboard
+
+Dashboard "1" -- "0..*" Transacao
+
+Usuario "1" -- "0..*" Relatorio
+
+@enduml
