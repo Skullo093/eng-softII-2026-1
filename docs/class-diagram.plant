@@ -1,84 +1,249 @@
-@startuml
+@startuml "FechaConta"
+skinparam backgroundColor white
 skinparam classAttributeIconSize 0
+skinparam shadowing true
+skinparam roundcorner 15
+skinparam linetype ortho
+skinparam packageStyle rectangle
 
-' ======================
-' CLASSES
-' ======================
+hide empty members
 
-class Usuario {
-  - id: int
-  - nome: String
-  - email: String
-  - senha: String
-  + login(email: String, senha: String): boolean
+title Sistema de Controle Financeiro
+
+' ==================================================
+' ENUMS
+' ==================================================
+
+enum TipoMovimentacao {
+  ENTRADA
+  SAIDA
 }
+
+enum StatusPagamento {
+  PENDENTE
+  PAGO
+  ATRASADO
+}
+
+enum FormaPagamento {
+  CONTA_CORRENTE
+  CARTAO_CREDITO
+  PIX
+  DINHEIRO
+}
+
+enum TipoCategoria {
+  RECEITA
+  DESPESA
+}
+
+' ==================================================
+' USUÁRIOS
+' ==================================================
+
+abstract class Usuario {
+  -id: int
+  -nome: String
+  -email: String
+  -senha: String
+  -dataCadastro: Date
+
+  +login(): boolean
+  +alterarSenha(): void
+}
+
+class PessoaFisica {
+  -cpf: String
+  -dataNascimento: Date
+}
+
+class PessoaJuridica {
+  -cnpj: String
+  -razaoSocial: String
+}
+
+Usuario <|-- PessoaFisica
+Usuario <|-- PessoaJuridica
+
+' ==================================================
+' CONTA
+' ==================================================
 
 class Conta {
-  - id: int
-  - nome: String
-  - saldo: double
-  - tipo: String
-  + adicionarSaldo(valor: double): void
-  + consultarSaldo(): double
+  -id: int
+  -nomeBanco: String
+  -agencia: String
+  -numeroConta: String
+  -saldoAtual: double
+  -tipoConta: String
+
+  +consultarSaldo(): double
+  +depositar(valor): void
+  +sacar(valor): void
 }
 
-class Transacao {
-  - id: int
-  - valor: double
-  - data: Date
-  - tipo: String
-  - descricao: String
-  + registrar(): void
+Usuario "1" -- "0..*" Conta
+
+' ==================================================
+' CARTÃO
+' ==================================================
+
+class CartaoCredito {
+  -id: int
+  -nomeCartao: String
+  -limiteTotal: double
+  -limiteDisponivel: double
+  -diaFechamento: int
+  -diaVencimento: int
+  -status: String
+
+  +gerarFatura(): void
+  +consultarLimite(): double
 }
+
+class Fatura {
+  -id: int
+  -mesReferencia: String
+  -valorTotal: double
+  -dataVencimento: Date
+  -status: StatusPagamento
+
+  +fecharFatura(): void
+  +pagarFatura(): void
+}
+
+Usuario "1" -- "0..*" CartaoCredito
+CartaoCredito "1" -- "0..*" Fatura
+
+' ==================================================
+' CATEGORIA
+' ==================================================
 
 class Categoria {
-  - id: int
-  - nome: String
-  - tipo: String
-  + criar(): void
+  -id: int
+  -nome: String
+  -tipo: TipoCategoria
+
+  +criarCategoria(): void
 }
 
-class Dashboard {
-  - id: int
-  - resumoSaldo: double
-  + exibirResumo(): void
+class Subcategoria {
+  -id: int
+  -nome: String
+
+  +criarSubcategoria(): void
 }
 
-class Relatorio {
-  - id: int
-  - periodo: String
-  + gerar(): void
+Categoria "1" -- "0..*" Subcategoria
+
+' ==================================================
+' TRANSAÇÕES
+' ==================================================
+
+abstract class Transacao {
+  -id: int
+  -descricao: String
+  -valor: double
+  -dataTransacao: Date
+  -dataVencimento: Date
+  -tipoMovimentacao: TipoMovimentacao
+  -formaPagamento: FormaPagamento
+  -statusPagamento: StatusPagamento
+  -recorrente: boolean
+  -afetaSaldoConta: boolean
+
+  +registrar(): void
+  +cancelar(): void
 }
 
-class UsuarioPessoaFisica {
-  - cpf: String
+class Receita {
+  -fonteReceita: String
 }
 
-class UsuarioPessoaJuridica {
-  - cnpj: String
+class Despesa {
+  -prioridade: String
+  -parcelada: boolean
+  -quantidadeParcelas: int
+
+  +calcularParcelas(): void
+  +pagar(): void
 }
 
-' ======================
-' HERANÇA
-' ======================
+Transacao <|-- Receita
+Transacao <|-- Despesa
 
-Usuario <|-- UsuarioPessoaFisica
-Usuario <|-- UsuarioPessoaJuridica
+Conta "1" -- "0..*" Receita
+Conta "1" -- "0..*" Despesa
 
-' ======================
-' RELACIONAMENTOS (COM CARDINALIDADE)
-' ======================
+Fatura "1" -- "0..*" Despesa
 
-Usuario "1" -- "1..*" Conta
+Categoria "1" -- "0..*" Transacao
+Subcategoria "1" -- "0..*" Transacao
 
-Conta "1" -- "0.." Transacao
+' ==================================================
+' NOTIFICAÇÕES
+' ==================================================
 
-Transacao "1" -- "1" Categoria
+class Notificacao {
+  -id: int
+  -mensagem: String
+  -dataAlerta: Date
+  -visualizada: boolean
+  -tipoAlerta: String
 
-Usuario "1" -- "1" Dashboard
+  +enviar(): void
+}
 
-Dashboard "1" -- "0..*" Transacao
+Transacao "1" -- "0..*" Notificacao
 
-Usuario "1" -- "0..*" Relatorio
+' ==================================================
+' METAS
+' ==================================================
+
+class MetaFinanceira {
+  -id: int
+  -descricao: String
+  -valorObjetivo: double
+  -valorAtual: double
+  -prazoFinal: Date
+  -status: String
+
+  +atualizarProgresso(): void
+  +concluirMeta(): void
+}
+
+Usuario "1" -- "0..*" MetaFinanceira
+
+' ==================================================
+' PLANEJAMENTO
+' ==================================================
+
+class PlanejamentoFinanceiro {
+  -id: int
+  -mesReferencia: String
+  -previsaoReceita: double
+  -limiteGastos: double
+  -saldoPrevisto: double
+
+  +calcularSaldoPrevisto(): double
+}
+
+Usuario "1" -- "0..*" PlanejamentoFinanceiro
+PlanejamentoFinanceiro "1" -- "0..*" Transacao
+
+' ==================================================
+' CONFIGURAÇÕES
+' ==================================================
+
+class Configuracoes {
+  -id: int
+  -tema: String
+  -moedaPadrao: String
+  -notificacoesAtivas: boolean
+
+  +salvarConfiguracoes(): void
+}
+
+Usuario "1" -- "1" Configuracoes
 
 @enduml
