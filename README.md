@@ -153,6 +153,12 @@ veja a seguir os requisitos: <p align="center">
   </a>
 </p>
 
+<p align="center">
+  <a href="./docs/Proposta.pdf">
+    <img src="https://img.shields.io/badge/📨%20Proposta-0088cc?style=for-the-badge">
+  </a>
+</p>
+
 link do Protótipo: https://stitch.withgoogle.com/preview/1611214365353690810?node-id=034759afcf964807bf4057ae589df0ec
 
 link do video: https://www.youtube.com/watch?v=XhjRnLvUjDM
