@@ -165,128 +165,132 @@ link do video: https://www.youtube.com/watch?v=XhjRnLvUjDM
 
 imagens do prototipo:
 
-<img width="400" height="1000" alt="orcamento" src="https://github.com/user-attachments/assets/05668320-bcd9-43a2-991e-d5c75dc1f55f" />
-<img width="400" height="1000" alt="login" src="https://github.com/user-attachments/assets/01822697-6004-4f3d-9675-ca07d83ca4de" />
-<img width="400" height="1000" alt="historico" src="https://github.com/user-attachments/assets/ecae20df-2727-483e-af5c-a4f497cbf61b" />
+<p align="center">
+  <img width="250" alt="Login" src="https://github.com/user-attachments/assets/01822697-6004-4f3d-9675-ca07d83ca4de">
+  <img width="250" alt="Histórico" src="https://github.com/user-attachments/assets/ecae20df-2727-483e-af5c-a4f497cbf61b">
+</p>
+
+## 🔐 Tela de Login
+
+### 📋 Descrição
+Permite que o usuário realize a autenticação na plataforma utilizando e-mail e senha, garantindo acesso seguro às funcionalidades do sistema.
+
+### ✅ Requisitos Atendidos
+- RF01 – O sistema deve permitir ao usuário cadastrar e autenticar sua conta.
 
 ---
 
-### 📱 Tela 1: Login e Cadastro
+## 📝 Tela de Cadastro
 
-- **RF01 — Cadastrar e Autenticar**  
-  Campos de E-mail/Senha e o link "Cadastrar" no rodapé.
+### 📋 Descrição
+Permite o registro de novos usuários através do preenchimento dos dados necessários para criação da conta.
 
-- **RNF05 — Autenticação Segura**  
-  Ícone de biometria (autenticação rápida) e selo de conexão **256-bit SSL**.
-
----
-
-### 📱 Tela 2: Dashboard (Início)
-
-- **RF05 — Saldo Consolidado**  
-  Exibição do saldo total em destaque.
-
-- **RF02 / RF03 — Receitas e Despesas**  
-  Cards com resumo financeiro.
-
-- **RF06 — Histórico**  
-  Seção "Últimas Atividades" com transações recentes.
-
-- **RF13 — Notificações**  
-  Ícone de sino e alerta de pagamento próximo.
+### ✅ Requisitos Atendidos
+- RF01 – O sistema deve permitir ao usuário cadastrar e autenticar sua conta.
 
 ---
 
-### 📱 Tela 3: Novo Lançamento
+## 💰 Dashboard Financeiro
 
-- **RF02 / RF03 — Registrar Transações**  
-  Seleção entre receita e despesa.
+### 📋 Descrição
+Apresenta uma visão geral da situação financeira do usuário, exibindo saldo consolidado, resumo das receitas, despesas e indicadores financeiros.
 
-- **RF04 — Categorizar**  
-  Botões de categorias (ex: Alimentação, Transporte).
-
-- **RF14 — Múltiplas Contas**  
-  Seleção de conta (corrente, poupança, etc.).
-
----
-
-### 📱 Tela 4: Relatórios
-
-- **RF08 — Relatórios Periódicos**  
-  Filtros por período (Mês / Semana / Ano).
-
-- **RF09 — Gráficos**  
-  Visualização de dados financeiros.
-
-- **RF11 — Alertas de Orçamento**  
-  Indicador de meta de gastos.
+### ✅ Requisitos Atendidos
+- RF05 – Exibir saldo atual consolidado.
+- RF06 – Apresentar histórico de transações financeiras.
+- RF09 – Exibir gráficos de receitas e despesas.
 
 ---
 
-### 📱 Tela 5: Planejamento (Orçamento)
+## 📊 Histórico de Transações
 
-- **RF10 — Orçamento por Categoria**  
-  Definição de limites financeiros.
+### 📋 Descrição
+Permite visualizar todas as movimentações financeiras realizadas pelo usuário, facilitando o acompanhamento das entradas e saídas registradas.
 
-- **RF11 — Alertas de Excesso**  
-  Avisos quando o orçamento é ultrapassado.
-
----
-
-### 📱 Tela 6: Minhas Metas
-
-- **RF17 — Definir Metas**  
-  Criação de objetivos financeiros.
-
-- **RF18 — Acompanhar Progresso**  
-  Barras de progresso e porcentagens.
+### ✅ Requisitos Atendidos
+- RF04 – Categorizar receitas e despesas.
+- RF06 – Apresentar histórico de transações financeiras.
+- RF07 – Permitir editar e excluir transações registradas.
 
 ---
 
-### 📱 Tela 7: Gerenciamento de Contas
+## ➕ Nova Transação
 
-- **RF14 — Múltiplas Contas**  
-  Visualização e controle de diferentes contas.
+### 📋 Descrição
+Permite registrar receitas e despesas, associando valores, categorias, datas e demais informações relevantes para o controle financeiro.
 
----
-
-### 📱 Tela 8: Ajustes (Configurações)
-
-- **RF15 — Exportar Dados**  
-  Opções para exportação (PDF, CSV, Excel).
-
-- **RF16 — Importar Dados**  
-  Upload de arquivos financeiros.
-
-- **RNF05 — Segurança**  
-  Configuração de biometria e alteração de senha.
+### ✅ Requisitos Atendidos
+- RF02 – Registrar receitas financeiras.
+- RF03 – Registrar despesas financeiras.
+- RF04 – Categorizar receitas e despesas.
 
 ---
 
-### 📱 Tela 9: Lembretes
+## 💳 Controle de Cartões
 
-- **RF12 — Configurar Lembretes**  
-  Definição de alertas de vencimento.
+### 📋 Descrição
+Possibilita acompanhar gastos realizados em cartões de crédito, visualizar limites disponíveis, vencimentos e faturas em aberto.
 
----
-
-### 📱 Tela 10: Histórico Completo
-
-- **RF06 — Histórico**  
-  Lista cronológica de transações.
-
-- **RF07 — Editar/Excluir**  
-  Menu de opções por transação.
+### ✅ Requisitos Atendidos
+- RF03 – Registrar despesas financeiras.
+- RF06 – Histórico de transações financeiras.
+- RF12 – Configurar lembretes de contas a pagar.
+- RF13 – Enviar notificações sobre vencimento de contas.
+- RF14 – Gerenciar múltiplas contas.
 
 ---
 
-## ⚙️ Requisitos Não Funcionais Evidenciados
+## 📈 Relatórios Financeiros
 
-- **RNF07 — Usabilidade**  
-  Interface consistente e intuitiva em todas as telas.
+### 📋 Descrição
+Disponibiliza relatórios detalhados e gráficos analíticos para auxiliar na tomada de decisões financeiras. Também permite exportar e importar dados financeiros.
 
-- **RNF15 — Precisão dos Dados**  
-  Cálculos financeiros corretos e coerentes entre receitas, despesas e saldo total.
+### ✅ Requisitos Atendidos
+- RF08 – Gerar relatórios financeiros.
+- RF09 – Exibir gráficos de receitas e despesas.
+- RF15 – Exportar dados financeiros.
+- RF16 – Importar dados financeiros.
+
+---
+
+## 🎯 Metas Financeiras
+
+### 📋 Descrição
+Permite criar objetivos financeiros e acompanhar sua evolução através de indicadores de progresso.
+
+### ✅ Requisitos Atendidos
+- RF17 – Definir metas financeiras.
+- RF18 – Acompanhar o progresso das metas financeiras.
+
+---
+
+## 🏦 Contas e Orçamentos
+
+### 📋 Descrição
+Permite gerenciar contas financeiras, acompanhar limites de gastos e controlar orçamentos por categoria.
+
+### ✅ Requisitos Atendidos
+- RF10 – Definir orçamentos por categoria.
+- RF11 – Alertar quando o orçamento for excedido.
+- RF14 – Gerenciar múltiplas contas.
+
+---
+
+## 📅 Planejamento Financeiro
+
+<p align="center">
+  <img width="300" alt="Planejamento" src="LINK_DA_IMAGEM_PLANEJAMENTO">
+</p>
+
+### 📋 Descrição
+Auxilia o usuário na projeção de receitas e despesas futuras, contribuindo para o planejamento financeiro de médio e longo prazo.
+
+### ✅ Requisitos Atendidos
+- RF10 – Definir orçamentos por categoria.
+- RF17 – Definir metas financeiras.
+- RF18 – Acompanhar o progresso das metas financeiras.
+
+---
 
 ## 👨‍💻 Membros da Equipe <a name="membros"></a>
 | Nome                          | RA             |
