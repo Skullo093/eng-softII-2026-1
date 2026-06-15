@@ -159,6 +159,12 @@ veja a seguir os requisitos: <p align="center">
   </a>
 </p>
 
+<p align="center">
+  <a href="./docs/Documento.de.Visao.-.FechaConta.pdf">
+    <img src="https://img.shields.io/badge/📨%20Documento de Visão-0088cc?style=for-the-badge">
+  </a>
+</p>
+
 link do Protótipo: https://stitch.withgoogle.com/preview/7971944960014563786?node-id=62cbc2da63e7496285f1649958047ab8
 
 link do video: https://www.youtube.com/watch?v=XhjRnLvUjDM
