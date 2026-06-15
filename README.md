@@ -141,7 +141,7 @@ Para garantir a permanência dos usuários e aumentar a conversão:
 ## 📱 Prototipação <a name="prototipacao"></a>
 
 Esta seção apresenta a relação entre as telas do aplicativo **FechaConta** e os requisitos funcionais e não funcionais definidos no projeto.
-veja a seguir os requisitos: <p align="center">
+ <p align="center">
   <a href="./docs/requisitos.md">
     <img src="https://img.shields.io/badge/📨%20Requisitos-0088cc?style=for-the-badge">
   </a>
