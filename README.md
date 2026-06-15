@@ -148,6 +148,12 @@ veja a seguir os requisitos: <p align="center">
 </p>
 
 <p align="center">
+  <a href="./docs/diagrams/docs/use-case/use-case.png">
+    <img src="https://img.shields.io/badge/📨%20Caso de Uso-0088cc?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
   <a href="./docs/diagrams/docs/class-diagram/FechaConta.png">
     <img src="https://img.shields.io/badge/📨%20Diagrama de classes-0088cc?style=for-the-badge">
   </a>
