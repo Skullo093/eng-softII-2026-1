@@ -173,7 +173,7 @@ Esta seção apresenta a relação entre as telas do aplicativo **FechaConta** e
 
 link do Protótipo(Apenas Mobile): https://stitch.withgoogle.com/preview/7971944960014563786?node-id=62cbc2da63e7496285f1649958047ab8
 
-link do video: https://www.youtube.com/watch?v=XhjRnLvUjDM
+link do video: https://youtu.be/28WzwQBlLpg?si=AvZqHvMX2_PPhVHv
 
 imagens do prototipo:
 
