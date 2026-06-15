@@ -290,10 +290,6 @@ Permite gerenciar contas financeiras, acompanhar limites de gastos e controlar o
 
 ## 📅 Planejamento Financeiro
 
-<p align="center">
-  <img width="300" alt="Planejamento" src="LINK_DA_IMAGEM_PLANEJAMENTO">
-</p>
-
 ### 📋 Descrição
 Auxilia o usuário na projeção de receitas e despesas futuras, contribuindo para o planejamento financeiro de médio e longo prazo.
 
